@@ -5,19 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404040404040</title>
     <style>
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
         body {
             margin: 0;
             padding: 0;
+            height: 100%;
             background-color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            font-family: Arial, sans-serif;
+            position: relative;
         }
         img {
             max-width: 100%;
             height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
